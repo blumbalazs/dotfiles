@@ -2,8 +2,8 @@
 SCRIPT_DIR="$(realpath "$(dirname "${(%):-%N}")")"
 
 # Source and destination directories
-MODULES="zsh_modules"
-LOADER="zsh_module_loader.zsh"
+MODULES=".zsh_modules"
+LOADER=".zsh_module_loader.zsh"
 
 create_syslink(){
     source="$SCRIPT_DIR/$1"
